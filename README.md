@@ -1,6 +1,6 @@
-<div align="center">
-
 # 🔐 Encrypted Signal Sharing Pool
+<img width="2560" height="1279" alt="image" src="https://github.com/user-attachments/assets/27ad17ff-58eb-49b7-8c39-d84a220fb440" />
+
 
 ### Privacy-Preserving Trading Signal Aggregation on Zama FHEVM
 
@@ -11,7 +11,8 @@
 
 **A decentralized platform that enables traders to share and aggregate trading signals while maintaining complete privacy using Fully Homomorphic Encryption (FHE).**
 
-[🌐 Live Demo](#) • [📖 Documentation](./docs/NETLIFY_DEPLOYMENT.md) • [💬 Report Bug](#)
+[🌐 Live Demo](https://encrypted-signal-sharing-pool.netlify.app/) • [📖 Documentation](https://github.com/0xxyiy0/-Encrypted-Signal-Sharing-Pool/blob/main/USER_GUIDE.md) • [💬 Report Bug](#)
+Video：https://youtu.be/pYMvIgvuH5k
 
 </div>
 
@@ -341,7 +342,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 📞 Contact
 
 - 📧 Email: [Your Email]
-- 💬 Discord: [Your Discord]
+- 💬 Discord: [0xxyiy0x]
 - 🐦 Twitter: [Your Twitter]
 
 ---
