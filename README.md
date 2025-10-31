@@ -1,7 +1,6 @@
-# Encrypted Signal Sharing Pool
-
 ## Project Demo Video
-[<image-card alt="Watch the video" src="https://img.youtube.com/vi/pYMvIgvuH5k/hqdefault.jpg" ></image-card>](https://youtu.be/pYMvIgvuH5k)
+
+[![Watch the video](https://img.youtube.com/vi/pYMvIgvuH5k/hqdefault.jpg)](https://youtu.be/pYMvIgvuH5k)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe 
