@@ -1,0 +1,25 @@
+# Netlify 部署配置
+# Encrypted Signal Sharing Pool - Frontend Deployment
+
+[build]
+  # 构建命令（在 frontend 目录下执行）
+  command = "cd frontend && npm install && npm run build"
+  
+  # 构建输出目录
+  publish = "frontend/dist"
+
+# SPA 路由重定向（React Router 需要）
+# 所有路由都重定向到 index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# 环境变量（如果需要在 Netlify 中设置）
+# 在 Netlify Dashboard -> Site settings -> Environment variables 中配置
+# 例如：
+# VITE_CONTRACT_MOCK=0xFcA70e08afb3E19d4B81F55b89f8900255DbfEC0
+# VITE_CONTRACT_FHE=0x2ef21fa971d29D9c1A3f997350b05d142f3A0800
+# VITE_FHEVM_ENABLED=false
+# VITE_SEPOLIA_RPC_URL=https://eth-sepolia.public.blastapi.io
+

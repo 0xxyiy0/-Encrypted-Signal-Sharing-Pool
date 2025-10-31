@@ -1,0 +1,5 @@
+# Netlify SPA 路由重定向
+# 这个文件会被复制到 dist 目录
+
+/*    /index.html   200
+
