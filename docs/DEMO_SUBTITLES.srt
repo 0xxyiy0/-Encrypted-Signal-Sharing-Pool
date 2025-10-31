@@ -1,0 +1,125 @@
+1
+00:00:00,000 --> 00:00:05,000
+Welcome to Encrypted Signal Sharing Pool!
+A privacy-preserving trading signal aggregation platform on Zama FHEVM.
+
+2
+00:00:05,000 --> 00:00:12,000
+Imagine multiple trading bots or participants
+securely sharing and aggregating trading signals without revealing individual strategies.
+
+3
+00:00:12,000 --> 00:00:18,500
+Core values: Complete privacy protection using Fully Homomorphic Encryption (FHE).
+Signals are encrypted on your device and remain encrypted throughout.
+
+4
+00:00:18,500 --> 00:00:25,000
+Intelligent aggregation from multiple signal sources for more accurate market predictions.
+Fair revenue distribution based on contributions, incentivizing high-quality signals.
+
+5
+00:00:25,000 --> 00:00:30,000
+Real-time monitoring with a visual dashboard to track aggregated results and earnings.
+
+6
+00:00:30,000 --> 00:00:38,500
+Project advantages one: Industry-leading privacy.
+End-to-end encryption, zero-knowledge computation—only final aggregated results are decrypted.
+Individual signals stay encrypted forever; strategies are untraceable.
+
+7
+00:00:38,500 --> 00:00:45,500
+Advantages two: Real business scenarios.
+Trading signal aggregation, decentralized signal markets,
+privacy-protected quant trading, institutional data collaboration.
+
+8
+00:00:45,500 --> 00:00:52,500
+Advantages three: Technical innovations.
+Dual-contract architecture: Mock version for quick testing, FHE version for production.
+Gateway integration with timeout and retry mechanisms, progressive development.
+
+9
+00:00:52,500 --> 00:00:56,500
+Responsive design for desktop and mobile devices.
+
+10
+00:00:56,500 --> 00:01:05,000
+Zama tech stack: Fully leveraging the FHEVM ecosystem.
+Core library @fhevm/solidity provides FHE encrypted types like euint32,
+supporting homomorphic operations: addition, subtraction, multiplication, division on encrypted data.
+
+11
+00:01:05,000 --> 00:01:12,500
+Public decryption mechanism, Sepolia testnet configuration.
+Applications: Store encrypted signals, perform mean or weighted average aggregations.
+
+12
+00:01:12,500 --> 00:01:20,000
+@fhevm/hardhat-plugin: Automatic contract compilation and network management.
+@zama-fhe/relayer-sdk: Frontend encryption SDK—encrypt data in the browser,
+generate proofs, upload only encrypted inputs.
+
+13
+00:01:20,000 --> 00:01:27,500
+Zama Gateway: Asynchronous decryption service with polling to avoid blocking.
+Enterprise-grade reliability for decrypting aggregated results for user viewing.
+
+14
+00:01:27,500 --> 00:01:35,500
+Tech architecture advantages comparison:
+Traditional schemes use plaintext storage and require decryption;
+Our FHEVM offers end-to-end encryption, on-chain computation without trust, optimized performance.
+
+15
+00:01:35,500 --> 00:01:44,000
+System architecture: Frontend with React + Vite, including signal input, aggregation dashboard, revenue distribution.
+Smart contracts: SignalPoolFHE.sol stores encrypted signals, performs FHE aggregation and revenue distribution.
+
+16
+00:01:44,000 --> 00:01:52,500
+Mock version for testing. Data flow: User input encrypted and uploaded,
+FHE computes encrypted results, Gateway decrypts and updates state for frontend display.
+
+17
+00:01:52,500 --> 00:01:57,000
+Revenue distribution based on contributions, users withdraw earnings.
+
+18
+00:01:57,000 --> 00:02:04,000
+Quick start: Clone the project, install dependencies, configure env vars like contract addresses and RPC.
+Run dev server to experience it.
+
+19
+00:02:04,000 --> 00:02:12,000
+Features: End-to-end encryption, homomorphic computation, selective decryption.
+Aggregation algorithms: Mean, weighted average, signal voting.
+Revenue mechanisms: Contribution tracking, automatic allocation, transparent and auditable.
+
+20
+00:02:12,000 --> 00:02:19,500
+User experience: Real-time monitoring, Echarts visualizations, responsive design.
+Tech stack: Solidity 0.8.24, React 19.1, ethers.js, and more.
+
+21
+00:02:19,500 --> 00:02:26,500
+Use cases: Trading signal aggregation, quant strategy collaboration,
+institutional data collaboration, decentralized signal markets.
+
+22
+00:02:26,500 --> 00:02:33,500
+Project highlights: Real business value, full technical implementation, excellent UX,
+production-ready with error handling, comprehensive docs.
+
+23
+00:02:33,500 --> 00:02:38,500
+Contributions welcome! MIT license.
+Visit Zama's site and FHEVM docs.
+Built with ❤️ using Zama FHEVM.
+
+24
+00:02:38,500 --> 00:02:40,000
+Please refer to the user manual for details.
+Thanks for watching!
+

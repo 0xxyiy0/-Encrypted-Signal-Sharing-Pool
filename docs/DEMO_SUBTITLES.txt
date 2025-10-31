@@ -1,0 +1,48 @@
+[00:00] Welcome to Encrypted Signal Sharing Pool! A privacy-preserving trading signal aggregation platform on Zama FHEVM.
+
+[00:05] Imagine multiple trading bots or participants securely sharing and aggregating trading signals without revealing individual strategies.
+
+[00:12] Core values: Complete privacy protection using Fully Homomorphic Encryption (FHE). Signals are encrypted on your device and remain encrypted throughout.
+
+[00:18] Intelligent aggregation from multiple signal sources for more accurate market predictions. Fair revenue distribution based on contributions, incentivizing high-quality signals.
+
+[00:25] Real-time monitoring with a visual dashboard to track aggregated results and earnings.
+
+[00:30] Project advantages one: Industry-leading privacy. End-to-end encryption, zero-knowledge computation—only final aggregated results are decrypted. Individual signals stay encrypted forever; strategies are untraceable.
+
+[00:38] Advantages two: Real business scenarios. Trading signal aggregation, decentralized signal markets, privacy-protected quant trading, institutional data collaboration.
+
+[00:45] Advantages three: Technical innovations. Dual-contract architecture: Mock version for quick testing, FHE version for production. Gateway integration with timeout and retry mechanisms, progressive development.
+
+[00:52] Responsive design for desktop and mobile devices.
+
+[00:56] Zama tech stack: Fully leveraging the FHEVM ecosystem. Core library @fhevm/solidity provides FHE encrypted types like euint32, supporting homomorphic operations: addition, subtraction, multiplication, division on encrypted data.
+
+[01:05] Public decryption mechanism, Sepolia testnet configuration. Applications: Store encrypted signals, perform mean or weighted average aggregations.
+
+[01:12] @fhevm/hardhat-plugin: Automatic contract compilation and network management. @zama-fhe/relayer-sdk: Frontend encryption SDK—encrypt data in the browser, generate proofs, upload only encrypted inputs.
+
+[01:20] Zama Gateway: Asynchronous decryption service with polling to avoid blocking. Enterprise-grade reliability for decrypting aggregated results for user viewing.
+
+[01:27] Tech architecture advantages comparison: Traditional schemes use plaintext storage and require decryption; Our FHEVM offers end-to-end encryption, on-chain computation without trust, optimized performance.
+
+[01:35] System architecture: Frontend with React + Vite, including signal input, aggregation dashboard, revenue distribution. Smart contracts: SignalPoolFHE.sol stores encrypted signals, performs FHE aggregation and revenue distribution.
+
+[01:44] Mock version for testing. Data flow: User input encrypted and uploaded, FHE computes encrypted results, Gateway decrypts and updates state for frontend display.
+
+[01:52] Revenue distribution based on contributions, users withdraw earnings.
+
+[01:57] Quick start: Clone the project, install dependencies, configure env vars like contract addresses and RPC. Run dev server to experience it.
+
+[02:04] Features: End-to-end encryption, homomorphic computation, selective decryption. Aggregation algorithms: Mean, weighted average, signal voting. Revenue mechanisms: Contribution tracking, automatic allocation, transparent and auditable.
+
+[02:12] User experience: Real-time monitoring, Echarts visualizations, responsive design. Tech stack: Solidity 0.8.24, React 19.1, ethers.js, and more.
+
+[02:19] Use cases: Trading signal aggregation, quant strategy collaboration, institutional data collaboration, decentralized signal markets.
+
+[02:26] Project highlights: Real business value, full technical implementation, excellent UX, production-ready with error handling, comprehensive docs.
+
+[02:33] Contributions welcome! MIT license. Visit Zama's site and FHEVM docs. Built with ❤️ using Zama FHEVM.
+
+[02:38] Please refer to the user manual for details. Thanks for watching!
+
